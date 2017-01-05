@@ -1,0 +1,127 @@
+﻿@font-face {
+	font-family: 'myfont';
+	src: url('/fonts/montserrat/Montserrat-Light.otf') format("truetype"); /* Make sure your file location is right */
+}
+
+/* site*/
+.col-md-1{
+    width:120px ;
+    height:662px;
+    padding:0 !important;
+    background:#1c262b;
+ 
+}
+.col-md-11{
+    height:662px;
+    overflow:hidden;
+    padding:0px !important;
+
+
+}
+/*end site*/
+
+.has-bg-img{
+  background: url(/Content/Images/profile.jpg) no-repeat ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+         .content::before{
+                content: "";
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+               /* z-index: -1;*/
+                background: rgba(73, 92, 95, 0.75);
+            }  
+}
+
+.tagline {
+  font-size: 21px;
+  line-height: 3.9rem;
+  margin-bottom: 25px;
+  letter-spacing: -1px;
+  font-family:myfont, serif;
+  line-height:55px;
+}
+
+.frontface{
+    line-height:50%;
+    color:#ecf0f1;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    max-width: 100%;
+    padding: 2em 0 3em;    
+    h2{
+          font-family:myfont, serif;
+          font-size:48px;
+          font-weight:bold;
+          letter-spacing:-4px;
+          line-height:inherit;
+          z-index:10;
+      }
+     h4{
+          letter-spacing: -1px;
+          font-family:myfont, serif;
+          z-index:10;
+      }
+}
+/* header*/
+
+.header {
+    img{
+    max-height:100%;
+    max-width:100%;
+    height:auto;
+    vertical-align:middle;
+    }
+    h2{
+        margin:0;
+        font-family:myfont,serif;
+        background:#E74C3C;
+        color:white;
+        font-weight:bold;
+    }
+    .nav-menu{
+        font-family:myfont,serif;
+        font-size:12px;
+        line-height:16px;
+        letter-spacing:0.7px;
+    }
+    
+}
+
+.header{
+    
+    a{
+         color:#ecf0f1;
+         padding:15px 0;
+         
+     }
+}
+.menu-auto{
+    li{
+         border-bottom: 1px solid ;  
+         padding:15px 0;
+        }
+}
+
+a:hover, a:focus {
+   color: white !important;
+   background:none  !important;
+}
+
+.header-bottom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-family:myfont,serif;
+    font-size:13px;
+    color:white;
+}
+/*end header*/
+
